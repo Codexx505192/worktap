@@ -68,7 +68,7 @@ export default function Footer(){
                    </li>
 
                    <li className="li2">
-                    <Link href="#" className="lnk7">
+                    <Link href="/howDoes" className="lnk7">
                     Как Это Работает
                     </Link>
                    </li>
@@ -80,7 +80,7 @@ export default function Footer(){
                    </li>
 
                    <li className="li2">
-                    <Link href="#" className="lnk7">
+                    <Link href="/rules" className="lnk7">
                     Правила Пользования 
                     </Link>
                    </li>
@@ -107,7 +107,7 @@ export default function Footer(){
                    </li>
 
                    <li className="li2">
-                    <Link href="#" className="lnk7">
+                    <Link href="/securityPolicy" className="lnk7">
                     Политика Безопасности
                     </Link>
                    </li>
