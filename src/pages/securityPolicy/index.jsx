@@ -56,7 +56,13 @@ export default function SecurityPolicy() {
                     </button>
 
                     <button className="btn9">
+                       <Link href="#" className="lnk13">
+                         Скачать документ
+                       </Link>
 
+                       <div className="dw">
+                        <img src="./img/down.svg" alt="" />
+                       </div>
                     </button>
                    </div>
                 </div>

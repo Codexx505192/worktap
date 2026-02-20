@@ -281,7 +281,7 @@ export default function Home() {
                 </div>
 
                 <button className="btn4">
-                    <Link href="#" className="lnk5">
+                    <Link href="/chat" className="lnk5">
                     Написать
                     </Link>
                   </button>
@@ -315,7 +315,7 @@ export default function Home() {
                 </div>
 
                 <button className="btn4">
-                    <Link href="#" className="lnk5">
+                    <Link href="/chat" className="lnk5">
                     Написать
                     </Link>
                   </button>
@@ -349,7 +349,7 @@ export default function Home() {
                 </div>
 
                 <button className="btn4">
-                    <Link href="#" className="lnk5">
+                    <Link href="/chat" className="lnk5">
                     Написать
                     </Link>
                   </button>
@@ -382,7 +382,7 @@ export default function Home() {
                 </div>
 
                 <button className="btn4">
-                    <Link href="#" className="lnk5">
+                    <Link href="/chat" className="lnk5">
                     Написать
                     </Link>
                   </button>
@@ -416,7 +416,7 @@ export default function Home() {
                 </div>
 
                 <button className="btn4">
-                    <Link href="#" className="lnk5">
+                    <Link href="/chat" className="lnk5">
                     Написать
                     </Link>
                   </button>

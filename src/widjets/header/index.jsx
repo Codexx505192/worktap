@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import { useState } from "react";
 
@@ -15,7 +16,7 @@ export default function Header(){
 
                   <ul className="li1">
                     <li className="li1">
-                        <Link href="#" className="lnk">
+                        <Link href="/stock" className="lnk">
                         Биржа
                         </Link>
                     </li>
@@ -51,7 +52,7 @@ export default function Header(){
 
                   <ul className={`mnu ${openMenu ? "_active" : ""}`}>
                     <li>
-                        <Link href="#" className="kn">
+                        <Link href="/stock" className="kn">
                         Биржа
                         </Link>
                     </li>
