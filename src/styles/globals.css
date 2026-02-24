@@ -1361,9 +1361,8 @@ color: #656084;
 
 /* chat */
 .chat_block{
-  width: 1320px;
-  height: 500px;
-  background-color: #1DBF73;
+  max-width: 1320px;
+  background-color: #f2f0fe;
 
   display: flex;
   gap: 30px;
@@ -1404,7 +1403,150 @@ border-radius: 50%;
   height: 100%;
   object-fit: cover;
 }
+
+.chat_left{
+max-width: 870px;
+height: 743px;
+background-color: #F2F0FE;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+border-radius: 20xp;
+}
+
+
+.top_usr{
+  width: 870px;
+border-bottom: 2px solid #767676;
+padding: 0 0 10px;
+}
+
+
+
+.inf_us{
+  width: 244px;
+
+
+display: flex;
+gap: 20px;
+}
+
+.us_im{
+  border-radius: 50%;
+  width: 80px;
+height: 80px;
+background-color: #C4C4C4;
+}
+
+
+.us_im img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.txt45{
+  padding: 0 0 0;
+font-weight: 500;
+font-size: 18px;
+color: #000000;
+}
+
+
+.online{
+font-weight: 500;
+font-size: 14px;
+color: #1DBF73;
+}
+
+
+.pix{
+  display: flex;
+ flex-direction: column;
+}
+
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f3f1f7;
+  padding: 10px 14px;
+  border-radius: 14px;
+  width: 870px; /* можно убрать или задать 100% */
+}
+
+.attach-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: #d9d4f3;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.message-input {
+  flex: 1;
+  height: 36px;
+  border: none;
+  outline: none;
+  background: #ebe7f8;
+  border-radius: 18px;
+  padding: 0 14px;
+  font-size: 14px;
+}
+
+.send-btn {
+  height: 36px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 18px;
+  background: #22c55e;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  background: #16a34a;
+}
 /* chat */
+
+
+
+/* login */
+.login_block{
+  width: 1320px;
+  background-color: crimson;
+
+  display: flex;
+}
+
+
+.lgn_left{
+  width: 960px;
+height: 1080px;
+background-color: darkkhaki;
+}
+
+
+.lgn_left img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.lgn_right{
+  display: flex;
+  flex-direction: column;
+  gap: 184px;
+}
+
+/* login */
 
 
 @media(max-width: 1200px){
@@ -1512,6 +1654,31 @@ select {
 
 .txt36 {
     font-size: 31px;
+}
+
+
+.chat_left{
+width: 470px;
+height: 743px;
+
+}
+
+
+.top_usr {
+    width: 467px;
+}
+
+
+.srcp {
+    gap: 20px;
+    width: 334px;
+    height: 120px;
+}
+
+.chat-input {
+    gap: 10px;
+    width: 472px;
+    padding: 10px 14px;
 }
 }
 
@@ -1630,6 +1797,31 @@ select {
 .tp_prj{
   gap: 90px;
 }
+
+
+.chat_left {
+    width: 370px;
+    height: 743px;
+}
+
+
+.top_usr {
+    width: 367px;
+}
+
+
+.chat-input {
+    width: 372px;
+    gap: 10px;
+    padding: 10px 14px;
+}
+
+
+.srcp {
+    width: 300px;
+    height: 120px;
+    gap: 20px;
+}
 }
 
 
@@ -1743,6 +1935,14 @@ select {
     display: flex;
     gap: 180px;
     padding: 20px 0px;
+}
+
+
+.srcp {
+    width: 100px;
+    height: 120px;
+    gap: 20px;
+    border-radius: 50%;
 }
 }
 
@@ -1912,6 +2112,27 @@ select {
 .btn9, .btn8 {
     width: 160px;
     height: 41px;
+}
+
+
+.chat_left {
+    width: 300px;
+    height: 743px;
+}
+
+.top_usr {
+    width: 300px;
+}
+
+
+.chat-input {
+    width: 200px;
+    gap: 10px;
+    padding: 10px 14px;
+}
+
+.chat_block{
+  flex-direction: column;
 }
 }
 

@@ -257,7 +257,9 @@ export default function Home() {
               <div className="itm">
                 <div className="inf_tp">
                    <div className="pht">
+                    <Link href="/profile">
                     <img src="./img/ma.svg" alt="" />
+                    </Link>
                    </div>
 
                    <div className="inf_i">
@@ -291,7 +293,9 @@ export default function Home() {
                  <div className="itm">
                 <div className="inf_tp">
                    <div className="pht">
+                    <Link href="/profile">
                     <img src="./img/semyon.svg" alt="" />
+                    </Link>
                    </div>
 
                    <div className="inf_i">
@@ -325,7 +329,9 @@ export default function Home() {
                <div className="itm">
                 <div className="inf_tp">
                    <div className="pht">
+                   <Link href="/profile">
                     <img src="./img/angelina.svg" alt="" />
+                   </Link>
                    </div>
 
                    <div className="inf_i">
@@ -358,7 +364,9 @@ export default function Home() {
               <div className="itm">
                 <div className="inf_tp">
                    <div className="pht">
+                    <Link href="/profile">
                     <img src="./img/nikita.svg" alt="" />
+                    </Link>
                    </div>
 
                    <div className="inf_i">

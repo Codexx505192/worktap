@@ -76,6 +76,11 @@ export default function Header(){
                         Создать заказ
                         </Link>
                     </li>
+                    <li onClick={() => setOpenMenu(false)}>
+                        <Link href="#" className="kn">
+                        close
+                        </Link>
+                    </li>
                   </ul>
             </div>
 
@@ -87,7 +92,7 @@ export default function Header(){
                 </button>
 
                 <button className="btn2">
-                    <Link href="#" className="lnk3">
+                    <Link href="/login" className="lnk3">
                     Войти
                     </Link>
                 </button>
