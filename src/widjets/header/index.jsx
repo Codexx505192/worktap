@@ -22,19 +22,19 @@ export default function Header(){
                     </li>
 
                     <li className="li1">
-                        <Link href="#" className="lnk">
+                        <Link href="/vorcks" className="lnk">
                         Ворки
                         </Link>
                     </li>
 
                      <li className="li1">
-                        <Link href="#" className="lnk">
+                        <Link href="/concurs" className="lnk">
                         Конкурсы
                         </Link>
                     </li>
 
                      <li className="li1">
-                        <Link href="#" className="lnk">
+                        <Link href="/create" className="lnk">
                         Создать ворк
                         </Link>
                     </li>
