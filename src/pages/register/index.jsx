@@ -12,7 +12,8 @@ export default function Register() {
                     </div>
 
 
-                    <div className={style.register_frm}>
+                    <form>
+                     <div className={style.register_frm}>
                       <div className={style.top}>
                          <p className={style.txt1s}>
                             Давайте создадим Вам аккаунт
@@ -78,6 +79,7 @@ export default function Register() {
                            </div>
                          </div>
                     </div>
+                    </form>
                  </div>
 
                   <div className={style.register_img}>

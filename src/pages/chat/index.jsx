@@ -1,24 +1,8 @@
 import Footer from "@/widjets/footer";
 import Header from "@/widjets/header";
-import { useState } from "react";
+
 
 export default function Chat() {
-
-  const [text, setText] = useState("");
-
-  const sendMessage = () => {
-    const value = text.trim();
-    if (!value) return;
-
-    onSend(value); // отправляем наверх
-    setText("");   // очищаем input
-  };
-
-  const handleKeyDown = (e) => {
-    if (e.key === "Enter") {
-      sendMessage();
-    }
-  };
     
     return(
         <>

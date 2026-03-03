@@ -11,7 +11,6 @@ body{
 .container{
   width: 1320px;
   margin: 0 auto;
-  /* background-color: aquamarine; */
 }
 
 
@@ -1532,7 +1531,7 @@ color: #1DBF73;
 
 .lgn_left{
 width: 900px;
-height: 1080px;
+height: 1000px;
 background-color: darkkhaki;
 }
 
@@ -1551,9 +1550,6 @@ background-color: darkkhaki;
 }
 
 
-.lgop{
-  margin-bottom: 184px;
-}
 
 .form_login{
 width: 509px;
@@ -1707,7 +1703,6 @@ color: orange;
 .serch_top{
   display: flex;
   flex-direction: column;
-  /* background-color: green; */
 }
 
 
@@ -1931,10 +1926,150 @@ color: #B0AAD0;
   flex-direction: column;
   gap: 10px;
 }
-
-
-
 /* vorcks */
+
+
+/* concurs */
+.concurs_block{
+  display: flex;
+  background-color: #F2F0FE;
+  gap: 30px;
+}
+
+.concurs_left{
+display: flex;
+flex-direction: column;
+padding: 20px;
+}
+
+
+.concurs_right{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+
+.top_cn1{
+  display: flex;
+  gap: 127px;
+}
+
+
+.txt55{
+font-weight: 600;
+font-size: 24px;
+color: #000000;
+}
+
+.txt56{
+font-weight: 600;
+font-size: 18px;
+color: #1DBF73;
+}
+
+
+
+.top_cn2{
+  display: flex;
+  align-items: center;
+  gap: 388px;
+  margin-top: 20px;
+}
+
+
+.txt57{
+font-weight: 400;
+font-size: 14px;
+color: #B0AAD0;
+}
+
+
+.txt58{
+font-weight: 500;
+font-size: 16px;
+color: #656084;
+}
+
+
+.txt59{
+font-weight: 400;
+font-size: 16px;
+padding: 20px 0 15px;
+}
+
+.spm{
+font-weight: 600;
+font-size: 16px;
+}
+
+
+.btn13{
+  border: none;
+  width: 277px;
+height: 44px;
+border-radius: 40px;
+background-color: #1DBF73;
+cursor: pointer;
+
+
+font-weight: 600;
+font-size: 16px;
+color: #F6FAFD;
+margin-top: 52px;
+}
+
+
+.top_inf{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.usr{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.usr img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+.usr_left{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.txt60{
+font-weight: 500;
+font-size: 18px;
+color: #000000;
+}
+
+.txt61{
+  padding:0 0 12px;
+font-weight: 500;
+font-size: 18px;
+color: #000000;
+}
+
+.review_block{
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+
+.txt62{
+font-weight: 600;
+font-size: 14px;
+}
+/* concurs */
 
 
 @media(max-width: 1200px){
@@ -2295,6 +2430,11 @@ height: 743px;
     height: 37px;
     font-size: 10px;
 }
+
+
+.txt55 {
+    font-size: 17px;
+}
 }
 
 
@@ -2460,6 +2600,10 @@ select {
 
 .vrk_itm{
   align-items: center;
+}
+
+.concurs_block{
+  flex-direction: column;
 }
 }
 
@@ -2649,6 +2793,11 @@ select {
 .block_btmm {
     display: none;
 }
+
+
+.lgn_right {
+    gap: 112px;
+}
 }
 
 
@@ -2671,11 +2820,11 @@ select {
 }
 
 .lnk3{
-  font-size: 7px;
+  font-size: 10px;
 }
 
 .lnk2{
-  font-size: 7px;
+  font-size: 10px;
 }
 
 .lnk{
@@ -2836,6 +2985,20 @@ select {
 
 .block_btmm {
     display: none;
+}
+
+
+.top_cn2{
+  gap: 100px;
+}
+
+
+.txt55{
+  font-size: 18px;
+}
+
+.txt56{
+  font-size: 12px;
 }
 }
 

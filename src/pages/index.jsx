@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <section>
+      <section id="home-page">
         <div className="container">
           <Header/>
 

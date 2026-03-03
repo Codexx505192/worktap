@@ -57,12 +57,12 @@ export default function Header(){
                         </Link>
                     </li>
                     <li>
-                        <Link href="#" className="kn">
+                        <Link href="/login" className="kn">
                         Ворки
                         </Link>
                     </li>
                     <li>
-                        <Link href="#" className="kn">
+                        <Link href="/concurs" className="kn">
                         Конкурсы
                         </Link>
                     </li>
@@ -86,7 +86,7 @@ export default function Header(){
 
             <div className="right">
                 <button className="btn1">
-                    <Link href="#" className="lnk2">
+                    <Link href="/register" className="lnk2">
                     Регистрация
                     </Link>
                 </button>

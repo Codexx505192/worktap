@@ -18,7 +18,8 @@ export default function Login() {
                         <img src="./img/logo1.svg" alt="" className="lgop"/>
                        
 
-                        <div className="form_login">
+                        <form>
+                            <div className="form_login">
                            <div className="top_">
                              <p className="txt46">Добро пожаловать!</p>
                              <p className="txt47">Войдите в свой аккаунт</p>
@@ -72,13 +73,14 @@ export default function Login() {
                               <p>
                                 У Вас все еще нет аккауна? 
                               </p>
-                                <Link href="#" className="reg">
+                                <Link href="/register" className="reg">
                                 Зарегистрируйтесь бесплатно!
                                 </Link>
                             </div>
                            </div>
 
                         </div>
+                        </form>
                      </div>
                 </div>
             </div>
